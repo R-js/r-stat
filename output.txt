@@ -1,230 +1,226 @@
-#### harvesting
-
 ```R 
-acf
-acf2AR
-add.scope
-add1
-addmargins
-aggregate
-aggregate.data.frame
-aggregate.ts
-AIC
-alias
-anova
-ansari.test
-aov
-approx
-approxfun
-ar
-ar.burg
-ar.mle
-ar.ols
-ar.yw
-arima
-arima.sim
-arima0
-arima0.diag
-ARMAacf
-ARMAtoMA
-as.dendrogram
-as.dist
-as.formula
-as.hclust
-as.stepfun
-as.ts
-asOneSidedFormula
-ave
-bandwidth.kernel
-bartlett.test
-BIC
-binom.test
-binomial
-biplot
-Box.test
-bw.bcv
-bw.nrd
-bw.nrd0
-bw.SJ
-bw.ucv
-C
-cancor
-case.names
-ccf
-chisq.test
-cmdscale
-coef
-coefficients
-complete.cases
-confint
-confint.default
-confint.lm
-constrOptim
-contr.helmert
-contr.poly
-contr.SAS
-contr.sum
-contr.treatment
-contrasts
-contrasts<-
-convolve
-cooks.distance
-cophenetic
-cor
-cor.test
-cov
-cov.wt
-cov2cor
-covratio
-cpgram
-cutree
-cycle
-D
-dbeta
-dbinom
-dcauchy
-dchisq
-decompose
-delete.response
-deltat
-dendrapply
-density
-density.default
-deriv
-deriv3
-deviance
-dexp
-df
-df.kernel
-df.residual
-dfbeta
-dfbetas
-dffits
---> stop
-dgamma
-dgeom
-dhyper
-diffinv
-dist
-dlnorm
-dlogis
-dmultinom
-dnbinom
-dnorm
-dpois
-drop.scope
-drop.terms
-drop1
-dsignrank
-dt
-dummy.coef
-dummy.coef.lm
-dunif
-dweibull
-dwilcox
-ecdf
-eff.aovlist
-effects
-embed
-end
-estVar
-expand.model.frame
-extractAIC
-factanal
-factor.scope
-family
-fft
-filter
-fisher.test
-fitted
-fitted.values
-fivenum
-fligner.test
-formula
-frequency
-friedman.test
-ftable
-Gamma
-gaussian
-get_all_vars
-getCall
-getInitial
-glm
-glm.control
-glm.fit
-hasTsp
-hat
-hatvalues
-hclust
-heatmap
-HoltWinters
-influence
-influence.measures
-integrate
-interaction.plot
-inverse.gaussian
-IQR
-is.empty.model
-is.leaf
-is.mts
-is.stepfun
-is.ts
-is.tskernel
-isoreg
-KalmanForecast
-KalmanLike
-KalmanRun
-KalmanSmooth
-kernapply
-kernel
-kmeans
-knots
-kruskal.test
-ks.test
-ksmooth
-lag
-lag.plot
-line
-lm
-lm.fit
-lm.influence
-lm.wfit
-loadings
-loess
-loess.control
-loess.smooth
-logLik
-loglin
-lowess
-ls.diag
-ls.print
-lsfit
-mad
-mahalanobis
--->stop()
-make.link
-makeARIMA
-makepredictcall
-manova
-mantelhaen.test
-mauchly.test
-mcnemar.test
-median
-median.default
-medpolish
-model.extract
-model.frame
-model.frame.default
-model.matrix
-model.matrix.default
-model.matrix.lm
-model.offset
-model.response
-model.tables
-model.weights
-monthplot
-mood.test
-mvfft
+acf             # Auto- and Cross- Covariance and -Correlation Function Estimation
+acf2AR          #Compute an AR Process Exactly Fitting an ACF
+add.scope       #Compute Allowed Changes in Adding to or Dropping from a Formula
+add1            #Add or Drop All Possible Single Terms to a Model
+addmargins      #Puts Arbitrary Margins on Multidimensional Tables or Arrays
+aggregate       #Compute Summary Statistics of Data Subsets
+aggregate.data.frame  #Compute Summary Statistics of Data Subsets
+aggregate.ts #Compute Summary Statistics of Data Subsets
+AIC              #Akaike's An Information Criterion
+alias           #Find Aliases (Dependencies) in a Model
+anova           #Anova Tables
+ansari.test     #Ansari-Bradley Test
+aov             #Fit an Analysis of Variance Model
+approx          #Interpolation Functions
+approxfun       #Interpolation Functions
+ar              #Fit Autoregressive Models to Time Series
+ar.burg         #Fit Autoregressive Models to Time Series
+ar.mle          #Fit Autoregressive Models to Time Series
+ar.ols          #Fit Autoregressive Models to Time Series
+ar.yw           #Fit Autoregressive Models to Time Series
+arima           #ARIMA Modelling of Time Series
+arima.sim       #ARIMA Modelling of Time Series
+arima0          #ARIMA Modelling of Time Series – Preliminary Version
+arima0.diag     #Defunct Functions in Package stats
+ARMAacf         #Compute Theoretical ACF for an ARMA Process
+ARMAtoMA        #Convert ARMA Process to Infinite MA Process
+as.dendrogram   #General Tree Structures 
+as.dist         #Distance Matrix Computation
+as.formula      #Model Formulae
+as.hclust       #Convert Objects to Class hclust
+as.stepfun      #Step Functions - Creation and Class
+as.ts           #Time-Series Objects
+asOneSidedFormula #Convert to One-Sided Formula
+ave              #Group Averages Over Level Combinations of Factors
+bandwidth.kernel  #Smoothing Kernel Objects
+bartlett.test   #Bartlett Test of Homogeneity of Variances
+BIC             #Akaike's An Information Criterion
+binom.test      #Exact Binomial Test
+binomial        #Family Objects for Models
+biplot          #Biplot of Multivariate Data
+Box.test        #Box-Pierce and Ljung-Box Tests
+bw.bcv          #Bandwidth Selectors for Kernel Density Estimation
+bw.nrd          #Bandwidth Selectors for Kernel Density Estimation
+bw.nrd0         #Bandwidth Selectors for Kernel Density Estimation
+bw.SJ           #Bandwidth Selectors for Kernel Density Estimation
+bw.ucv          #Bandwidth Selectors for Kernel Density Estimation
+C               #Sets Contrasts for a Factor
+cancor          #Canonical Correlations
+case.names      #Case and Variable Names of Fitted Models
+ccf             #Auto- and Cross- Covariance and -Correlation Function Estimation
+chisq.test      #Pearson's Chi-squared Test for Count Data
+cmdscale        #Classical (Metric) Multidimensional Scaling
+coef            #Extract Model Coefficients
+coefficients    #Extract Model Coefficients
+complete.cases  #Find Complete Cases
+confint         #Confidence Intervals for Model Parameters
+confint.default #Confidence Intervals for Model Parameters
+confint.lm      #Confidence Intervals for Model Parameters
+constrOptim     #Linearly Constrained Optimization
+contr.helmert   #(Possibly Sparse) Contrast Matrices
+contr.poly      #(Possibly Sparse) Contrast Matrices
+contr.SAS       #(Possibly Sparse) Contrast Matrices
+contr.sum       #(Possibly Sparse) Contrast Matrices
+contr.treatment #(Possibly Sparse) Contrast Matrices
+contrasts       #Get and Set Contrast Matrices
+contrasts<-     #Get and Set Contrast Matrices
+convolve        #Convolution of Sequences via FFT
+cooks.distance  #Regression Deletion Diagnostics
+cophenetic      #Cophenetic Distances for a Hierarchical Clustering     
+cor             #Correlation, Variance and Covariance (Matrices)
+cor.test        #Correlation, Variance and Covariance (Matrices)
+cov             #Correlation, Variance and Covariance (Matrices)
+cov.wt          #Correlation, Variance and Covariance (Matrices)
+cov2cor         #Correlation, Variance and Covariance (Matrices)
+covratio        #Regression Deletion Diagnostics
+cpgram          #Plot Cumulative Periodogram
+cutree          #Cut a Tree into Groups of Data
+cycle           #Sampling Times of Time Series
+D               #Symbolic and Algorithmic Derivatives of Simple Expressions
+dbeta           #done
+dbinom          #done
+dcauchy         #done
+dchisq          #done
+decompose       #Classical Seasonal Decomposition by Moving Averages
+delete.response #Modify Terms Objects
+deltat          #Sampling Times of Time Series
+dendrapply      #Apply a Function to All Nodes of a Dendrogram
+density         #Kernel Density Estimation
+density.default #Kernel Density Estimation
+deriv           #Symbolic and Algorithmic Derivatives of Simple Expressions
+deriv3          #Symbolic and Algorithmic Derivatives of Simple Expressions    
+deviance        #Model Deviance
+dexp            #done
+df              #done
+df.kernel       #Smoothing Kernel Objects
+df.residual     #Smoothing Kernel Objects
+dfbeta          #Regression Deletion Diagnostics
+dfbetas         #Regression Deletion Diagnostics
+dffits          #Regression Deletion Diagnostics
+dgamma          #done
+dgeom           #done
+dhyper          #done
+diffinv         #Discrete Integration: Inverse of Differencing
+dist            #Distance Matrix Computation
+dlnorm          #done
+dlogis          #done
+dmultinom       #done
+dnbinom         #done
+dnorm           #done
+dpois           #done 
+drop.scope      #Compute Allowed Changes in Adding to or Dropping from a Formula
+drop.terms      #Modify Terms Objects
+drop1           #Add or Drop All Possible Single Terms to a Model
+dsignrank       #done
+dt              #done
+dummy.coef      #Extract Coefficients in Original Coding
+dummy.coef.lm   #Extract Coefficients in Original Coding   
+dunif           #done
+dweibull        #done
+dwilcox         #done
+ecdf            #Empirical Cumulative Distribution Function
+eff.aovlist     #Compute Efficiencies of Multistratum Analysis of Variance
+effects         #Effects from Fitted Model
+embed           #Embedding a Time Series
+end             #Encode the Terminal Times of Time Series
+estVar          #SSD Matrix and Estimated Variance Matrix in Multivariate Models
+expand.model.frame  #Add new variables to a model frame
+extractAIC      #Extract AIC from a Fitted Model
+factanal        #Factor Analysis
+factor.scope    #Compute Allowed Changes in Adding to or Dropping from a Formula
+family          #Family Objects for Models
+fft             #Fast Discrete Fourier Transform (FFT)
+filter          #Linear Filtering on a Time Series
+fisher.test     #Fisher's Exact Test for Count Data
+fitted          #Extract Model Fitted Values
+fitted.values   #Extract Model Fitted Values
+fivenum         #Tukey Five-Number Summaries
+fligner.test    #Fligner-Killeen Test of Homogeneity of Variances
+formula         #Model Formulae
+frequency       #Sampling Times of Time Series
+friedman.test   #Friedman Rank Sum Test
+ftable          #Flat Contingency Tables
+Gamma           #done
+gaussian        #Family Objects for Models
+get_all_vars    #Extracting the Model Frame from a Formula or Fit
+getCall         #Update and Re-fit a Model Call
+getInitial      #Get Initial Parameter Estimates
+glm             #Fitting Generalized Linear Models
+glm.control     #Auxiliary for Controlling GLM Fitting
+glm.fit         #Fitting Generalized Linear Models
+hasTsp          #Tsp Attribute of Time-Series-like Objects
+hat             #Regression Deletion Diagnostics `hat(x, intercept = TRUE)`
+hatvalues       #Regression Deletion Diagnostics
+hclust          #Hierarchical Clustering
+heatmap         #Draw a Heat Map
+HoltWinters     #Holt-Winters Filtering
+influence       #Regression Diagnostics
+influence.measures  #Regression Deletion Diagnostics
+integrate           #Integration of One-Dimensional Functions
+interaction.plot    #Two-way Interaction Plot
+inverse.gaussian    #Family Objects for Models
+IQR                 #The Interquartile Range
+is.empty.model      #Test if a Model's Formula is Empty
+is.leaf             #General Tree Structures
+is.mts              #Time-Series Objects
+is.stepfun          #Step Functions - Creation and Class
+is.ts               #Time-Series Objects
+is.tskernel         #Smoothing Kernel Objects
+isoreg              #Isotonic / Monotone Regression
+KalmanForecast      #Kalman Filtering
+KalmanLike          #Kalman Filtering
+KalmanRun           #Kalman Filtering
+KalmanSmooth        #Kalman Filtering
+kernapply           #Apply Smoothing Kernel
+kernel              #Smoothing Kernel Objects
+kmeans              #K-Means Clustering
+knots               #Step Functions - Creation and Class
+kruskal.test        #Kruskal-Wallis Rank Sum Test
+ks.test             #Kolmogorov-Smirnov Tests
+ksmooth             #Kernel Regression Smoother
+lag                 #Lag a Time Series
+lag.plot            #Lag a Time Series
+line                #Robust Line Fitting
+lm                  #Fitting Linear Models
+lm.fit              #Fitter Functions for Linear Models
+lm.influence        #Regression Diagnostics
+lm.wfit             #Fitter Functions for Linear Models
+loadings            #Print Loadings in Factor Analysis
+loess               #Local Polynomial Regression Fitting
+loess.control       #Set Parameters for Loess
+loess.smooth        #Set Parameters for Loess
+logLik              #Extract Log-Likelihood
+loglin              #Fitting Log-Linear Models
+lowess              #Scatter Plot Smoothing
+ls.diag             #Compute Diagnostics for lsfit Regression Results
+ls.print            #Print lsfit Regression Results
+lsfit               #Find the Least Squares Fit
+mad                 #Median Absolute Deviation
+mahalanobis         #Mahalanobis Distance
+make.link           #Create a Link for GLM Families
+makeARIMA           #Kalman Filtering
+makepredictcall     #Utility Function for Safe Prediction
+manova              #Multivariate Analysis of Variance
+mantelhaen.test     #Cochran-Mantel-Haenszel Chi-Squared Test for Count Data
+mauchly.test        #Mauchly's Test of Sphericity
+mcnemar.test        #McNemar's Chi-squared Test for Count Data
+median              #Median Value
+median.default      #Median Value
+medpolish           #Median Polish (Robust Twoway Decomposition) of a Matrix
+model.extract       #Extract Components from a Model Frame
+model.frame         #Extracting the Model Frame from a Formula or Fit
+model.frame.default #Extracting the Model Frame from a Formula or Fit
+model.matrix        #Construct Design Matrices
+model.matrix.default  #Construct Design Matrices
+model.matrix.lm     #Construct Design Matrices 
+model.offset        #Extract Components from a Model Frame
+model.response      #Extract Components from a Model Frame
+model.tables        #Compute Tables of Results from an Aov Model Fit
+model.weights       #Extract Components from a Model Frame
+monthplot           #Plot a Seasonal or other Subseries from a Time Series
+mood.test           #Mood Two-Sample Test of Scale
+mvfft               #Fast Discrete Fourier Transform (FFT)
 na.action
 na.contiguous
 na.exclude
