@@ -305,20 +305,20 @@ ptukey               #done
 punif                #done
 pweibull             #done
 pwilcox              #done
-qbeta               #done
+qbeta                #done
 qbinom               #done
-qbirthday             #Probability of coincidences
+qbirthday            #Probability of coincidences
 qcauchy              #done
-qchisq                #done
-qexp                  #done
+qchisq               #done
+qexp                 #done
 qf                   #done
-qgamma                #done   
+qgamma               #done   
 qgeom                #done
-qhyper                  #done
-qlnorm                   #done
-qlogis                   #done
-qnbinom                  #done
-qnorm                    #done
+qhyper               #done
+qlnorm               #done
+qlogis               #done
+qnbinom              #done
+qnorm                #done
 qpois                #done
 qqline               #done
 qqnorm               #done
@@ -330,14 +330,14 @@ quade.test          #Quade Test
 quantile            #Sample Quantiles
 quasi               #Family Objects for Models
 quasibinomial       #Family Objects for Models
-quasipoisson            #Family Objects for Models
+quasipoisson         #Family Objects for Models
 qunif                #done
 qweibull             #done
 qwilcox              #done
-r2dtable            #Random 2-way Tables with Given Marginals
+r2dtable             #Random 2-way Tables with Given Marginals
 rbeta                #done
 rbinom               #done
-rcauchy                  #done
+rcauchy              #done
 rchisq               #done
 read.ftable         #Manipulate Flat Contingency Tables
 rect.hclust         #Draw Rectangles Around Hierarchical Clusters
@@ -353,8 +353,8 @@ residuals.lm        #Accessing Linear Model Fits
 rexp                 #done
 rf                   #done
 rgamma               #done
-rgeom                    #done
-rhyper                   #done
+rgeom                #done
+rhyper               #done
 rlnorm               #done
 rlogis               #done
 rmultinom            #done
@@ -363,9 +363,9 @@ rnorm                #done
 rpois                #done
 rsignrank            #done
 rstandard           #Regression Deletion Diagnostics
-rstudent                 #done
+rstudent             #done
 rt                   #done
-runif                    #done
+runif                #done
 runmed              #Running Medians – Robust Scatter Plot Smoothing
 rweibull             #done
 rwilcox              #done
@@ -376,75 +376,74 @@ sd                  #Standard Deviation
 se.contrast         #Standard Errors for Contrasts in Model Terms
 selfStart           #Construct Self-starting Nonlinear Models
 setNames            #Set the Names in an Object
-shapiro.test
-sigma
-simulate
-smooth
-smooth.spline
-smoothEnds
-sortedXyData
-spec.ar
-spec.pgram
-spec.taper
-spectrum
-spline
-splinefun
-splinefunH
-SSasymp
-SSasympOff
-SSasympOrig
-SSbiexp
-SSD
-SSfol
-SSfpl
--->stop()
-SSgompertz
-SSlogis
-SSmicmen
-SSweibull
-start
-stat.anova
-step
-stepfun
-stl
-StructTS
-summary.aov
-summary.glm
-summary.lm
-summary.manova
-summary.stepfun
-supsmu
-symnum
-t.test
-termplot
-terms
-terms.formula
-time
-toeplitz
-ts
-ts.intersect
-ts.plot
-ts.union
-tsdiag
-tsp
-tsp<-
-tsSmooth
-TukeyHSD
-uniroot
-update
-update.default
-update.formula
-var
-var.test
-variable.names
-varimax
-vcov
-weighted.mean
-weighted.residuals
-weights
-wilcox.test
-window
-window<-
-write.ftable
-xtabs
+shapiro.test        #Shapiro-Wilk Normality Test
+sigma               #Extract Residual Standard Deviation 'Sigma'
+simulate            #Simulate Responses
+smooth              #Tukey's (Running Median) Smoothing
+smooth.spline       #Fit a Smoothing Spline
+smoothEnds          #End Points Smoothing (for Running Medians)
+sortedXyData        #Create a sortedXyData Object
+spec.ar             #Estimate Spectral Density of a Time Series from AR Fit
+spec.pgram          #Estimate Spectral Density of a Time Series by a Smoothed Periodogram
+spec.taper          #Taper a Time Series by a Cosine Bell
+spectrum            #Spectral Density Estimation
+spline              #Interpolating Splines
+splinefun           #Interpolating Splines
+splinefunH          #Interpolating Splines  
+SSasymp             #Self-Starting Nls Asymptotic Regression Model
+SSasympOff          #Self-Starting Nls Asymptotic Regression Model with an Offset
+SSasympOrig         #Self-Starting Nls Asymptotic Regression Model through the Origin
+SSbiexp             #Self-Starting Nls Biexponential model
+SSD                 #SSD Matrix and Estimated Variance Matrix in Multivariate Models
+SSfol               #Self-Starting Nls First-order Compartment Model
+SSfpl               #Self-Starting Nls Four-Parameter Logistic Model
+SSgompertz          #Self-Starting Nls Gompertz Growth Model
+SSlogis             #Self-Starting Nls Logistic Model
+SSmicmen            #Self-Starting Nls Michaelis-Menten Model
+SSweibull           #Self-Starting Nls Weibull Growth Curve Model
+start               #Encode the Terminal Times of Time Series
+stat.anova          #GLM Anova Statistics
+step                #Choose a model by AIC in a Stepwise Algorithm
+stepfun             #Step Functions - Creation and Class
+stl                 #Seasonal Decomposition of Time Series by Loess
+StructTS            #Fit Structural Time Series
+summary.aov         #Summarize an Analysis of Variance Model
+summary.glm         #Summarizing Generalized Linear Model Fits
+summary.lm          #Summarizing Linear Model Fits
+summary.manova      #Summary Method for Multivariate Analysis of Variance
+summary.stepfun     #Step Functions - Creation and Class
+supsmu              #Friedman's SuperSmoother
+symnum              #Symbolic Number Coding
+t.test              #Student's t-Test
+termplot            #Plot Regression Terms
+terms               #Model Terms, has class "terms" added
+terms.formula       #Construct a terms Object from a Formula
+time                #Sampling Times of Time Series
+toeplitz            #Form Symmetric Toeplitz Matrix
+ts                  #Time-Series Objects
+ts.intersect        #Bind Two or More Time Series
+ts.plot             #Plot Multiple Time Series
+ts.union            #Bind Two or More Time Series
+tsdiag              #Diagnostic Plots for Time-Series Fits
+tsp                 #Tsp Attribute of Time-Series-like Objects
+tsp<-               #Tsp Attribute of Time-Series-like Objects
+tsSmooth            #Use Fixed-Interval Smoothing on Time Series
+TukeyHSD            #Compute Tukey Honest Significant Differences
+uniroot             #One Dimensional Root (Zero) Finding
+update              #Update and Re-fit a Model Call
+update.default      #Update and Re-fit a Model Call
+update.formula      #Update and Re-fit a Model Call
+var                 #Correlation, Variance and Covariance (Matrices)
+var.test            #F Test to Compare Two Variances
+variable.names      #Case and Variable Names of Fitted Models
+varimax             #Rotation Methods for Factor Analysis
+vcov                #Calculate Variance-Covariance Matrix for a Fitted Model Object
+weighted.mean       #Weighted Arithmetic Mean
+weighted.residuals  #Compute Weighted Residuals
+weights             #Extract Model Weights
+wilcox.test         #Wilcoxon Rank Sum and Signed Rank Tests
+window              #Time Windows
+window<-            #Time Windows
+write.ftable        #Manipulate Flat Contingency Tables
+xtabs               #Cross Tabulation
 ```
