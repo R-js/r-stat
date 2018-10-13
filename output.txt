@@ -221,162 +221,161 @@ model.weights       #Extract Components from a Model Frame
 monthplot           #Plot a Seasonal or other Subseries from a Time Series
 mood.test           #Mood Two-Sample Test of Scale
 mvfft               #Fast Discrete Fourier Transform (FFT)
-na.action
-na.contiguous
-na.exclude
-na.fail
-na.omit
-na.pass
-napredict
-naprint
-naresid
-nextn
-nlm
-nlminb
-nls
-nls.control
-NLSstAsymptotic
-NLSstClosestX
-NLSstLfAsymptote
-NLSstRtAsymptote
-nobs
-numericDeriv
-offset
-oneway.test
-optim
-optimHess
-optimise
-optimize
-order.dendrogram
-p.adjust
-p.adjust.methods
-pacf
-pairwise.prop.test
-pairwise.t.test
-pairwise.table
-pairwise.wilcox.test
-pbeta
-pbinom
-pbirthday
-pcauchy
-pchisq
-pexp
-pf
-pgamma
-pgeom
-phyper
-plclust
-plnorm
-plogis
-plot.ecdf
-plot.spec.coherency
-plot.spec.phase
-plot.stepfun
-plot.ts
-pnbinom
-pnorm
-poisson
-poisson.test
-poly
-polym
-power
-power.anova.test
-power.prop.test
-power.t.test
-PP.test
-ppoints
-ppois
-ppr
-prcomp
-predict
-predict.glm
-predict.lm
-preplot
-princomp
-printCoefmat
-profile
-proj
-promax
-prop.test
--->stop()
-prop.trend.test
-psignrank
-pt
-ptukey
-punif
-pweibull
-pwilcox
-qbeta
-qbinom
-qbirthday
-qcauchy
-qchisq
-qexp
-qf
-qgamma
-qgeom
-qhyper
-qlnorm
-qlogis
-qnbinom
-qnorm
-qpois
-qqline
-qqnorm
-qqplot
-qsignrank
-qt
-qtukey
-quade.test
-quantile
-quasi
-quasibinomial
-quasipoisson
-qunif
-qweibull
-qwilcox
-r2dtable
-rbeta
-rbinom
-rcauchy
-rchisq
-read.ftable
-rect.hclust
-reformulate
-relevel
-reorder
-replications
-reshape
-resid
-residuals
-residuals.glm
-residuals.lm
-rexp
-rf
-rgamma
-rgeom
-rhyper
-rlnorm
-rlogis
-rmultinom
-rnbinom
-rnorm
-rpois
-rsignrank
-rstandard
-rstudent
-rt
-runif
-runmed
-rweibull
-rwilcox
-rWishart
-scatter.smooth
-screeplot
-sd
-se.contrast
-selfStart
-setNames
+na.action           #NA Action
+na.contiguous       #Find Longest Contiguous Stretch of non-NAs
+na.exclude          #Handle Missing Values in Objects
+na.fail             #Handle Missing Values in Objects
+na.omit             #Handle Missing Values in Objects
+na.pass             #Handle Missing Values in Objects
+napredict           #Adjust for Missing Values
+naprint             #Adjust for Missing Values
+naresid             #Adjust for Missing Values  
+nextn               #Highly Composite Numbers
+nlm                 #Non-Linear Minimization
+nlminb              #Optimization using PORT routines
+nls                 #Nonlinear Least Squares
+nls.control         #Control the Iterations in nls
+NLSstAsymptotic     #Fit the Asymptotic Regression Model
+NLSstClosestX       #Inverse Interpolation
+NLSstLfAsymptote    #Horizontal Asymptote on the Left Side
+NLSstRtAsymptote    #Horizontal Asymptote on the Right Side
+nobs                #Extract the Number of Observations from a Fit.
+numericDeriv        #Evaluate Derivatives Numerically
+offset              #Include an Offset in a Model Formula
+oneway.test         #Test for Equal Means in a One-Way Layout
+optim               #General-purpose Optimization
+optimHess           #General-purpose Optimization
+optimise            #General-purpose Optimization
+optimize            #One Dimensional Optimization
+order.dendrogram    #Ordering or Labels of the Leaves in a Dendrogram
+p.adjust            #Adjust P-values for Multiple Comparisons
+p.adjust.methods    #Adjust P-values for Multiple Comparisons
+pacf                #Auto- and Cross- Covariance and -Correlation Function Estimation
+pairwise.prop.test  #Pairwise comparisons for proportions
+pairwise.t.test     #Pairwise t tests
+pairwise.table      #Tabulate p values for pairwise comparisons
+pairwise.wilcox.test #Pairwise Wilcoxon Rank Sum Tests
+pbeta               #done
+pbinom              #done
+pbirthday           #Probability of coincidences
+pcauchy             #done
+pchisq              #done
+pexp                #done
+pf                  #done
+pgamma              #done
+pgeom               #done
+phyper              #done
+plclust             #Deprecated Functions in Package stats
+plnorm              #done
+plogis              #done
+plot.ecdf           #Empirical Cumulative Distribution Function    
+plot.spec.coherency #Plotting Spectral Densities
+plot.spec.phase     #Plotting Spectral Densities
+plot.stepfun        #Plot Step Functions
+plot.ts             #Plotting Time-Series Objects
+pnbinom             #done
+pnorm               #done
+poisson             #done
+poisson.test        #Exact Poisson tests
+poly                #Compute Orthogonal Polynomials
+polym               #Compute Orthogonal Polynomials
+power               #Create a Power Link Object
+power.anova.test    #Power Calculations for Balanced One-Way Analysis of Variance Tests
+power.prop.test     #Power Calculations for Two-Sample Test for Proportions
+power.t.test        #Power calculations for one and two sample t tests
+PP.test             #Phillips-Perron Test for Unit Roots
+ppoints             #Ordinates for Probability Plotting
+ppois               #done
+ppr                 #Projection Pursuit Regression
+prcomp              #Principal Components Analysis
+predict             #Model Predictions
+predict.glm         #Predict Method for GLM Fits
+predict.lm          #Predict method for Linear Model Fits
+preplot             #Pre-computations for a Plotting Object
+princomp            #Principal Components Analysis
+printCoefmat        #Print Coefficient Matrices
+profile             #Generic Function for Profiling Models
+proj                #Projections of Models
+promax              #Rotation Methods for Factor Analysis
+prop.test           #Test of Equal or Given Proportions
+prop.trend.test     #Test for trend in proportions
+psignrank           #done
+pt                   #done
+ptukey               #done
+punif                #done
+pweibull             #done
+pwilcox              #done
+qbeta               #done
+qbinom               #done
+qbirthday             #Probability of coincidences
+qcauchy              #done
+qchisq                #done
+qexp                  #done
+qf                   #done
+qgamma                #done   
+qgeom                #done
+qhyper                  #done
+qlnorm                   #done
+qlogis                   #done
+qnbinom                  #done
+qnorm                    #done
+qpois                #done
+qqline               #done
+qqnorm               #done
+qqplot              #Quantile-Quantile Plots
+qsignrank            #done
+qt                   #done
+qtukey               #done
+quade.test          #Quade Test
+quantile            #Sample Quantiles
+quasi               #Family Objects for Models
+quasibinomial       #Family Objects for Models
+quasipoisson            #Family Objects for Models
+qunif                #done
+qweibull             #done
+qwilcox              #done
+r2dtable            #Random 2-way Tables with Given Marginals
+rbeta                #done
+rbinom               #done
+rcauchy                  #done
+rchisq               #done
+read.ftable         #Manipulate Flat Contingency Tables
+rect.hclust         #Draw Rectangles Around Hierarchical Clusters
+reformulate         #Modify Terms Objects
+relevel             #Reorder Levels of Factor
+reorder             #Reorder Levels of a Factor
+replications        #Number of Replications of Terms
+reshape             #Reshape Grouped Data
+resid               #Extract Model Residuals
+residuals           #Extract Model Residuals
+residuals.glm       #Accessing Generalized Linear Model Fits
+residuals.lm        #Accessing Linear Model Fits
+rexp                 #done
+rf                   #done
+rgamma               #done
+rgeom                    #done
+rhyper                   #done
+rlnorm               #done
+rlogis               #done
+rmultinom            #done
+rnbinom              #done
+rnorm                #done
+rpois                #done
+rsignrank            #done
+rstandard           #Regression Deletion Diagnostics
+rstudent                 #done
+rt                   #done
+runif                    #done
+runmed              #Running Medians – Robust Scatter Plot Smoothing
+rweibull             #done
+rwilcox              #done
+rWishart            #Random Wishart Distributed Matrices   
+scatter.smooth      #Scatter Plot with Smooth Curve Fitted by Loess
+screeplot           #Screeplots
+sd                  #Standard Deviation
+se.contrast         #Standard Errors for Contrasts in Model Terms
+selfStart           #Construct Self-starting Nonlinear Models
+setNames            #Set the Names in an Object
 shapiro.test
 sigma
 simulate
